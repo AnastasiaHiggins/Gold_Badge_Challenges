@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SFDcS0bka7XJNI4GOPv4hnW8KvMpcBAbpLsxob060Vjwaz0/wQQsgixrXMbRIo5PBedX6+hsEu3mk9t3dbrMgw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\higgi\\ElevenFiftyProjects\\Gold Badge Assignments\\Gold Badge Final Challenges\\Cafe_ClassLibrary\\Cafe_ClassLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\higgi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\higgi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
