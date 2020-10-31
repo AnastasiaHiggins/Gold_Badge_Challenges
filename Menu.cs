@@ -2,7 +2,7 @@
 
 namespace Cafe_ClassLibrary
 {
-    public class MenuItem
+    public class Menu
     {
 
         public int Number { get; set; }
@@ -11,7 +11,21 @@ namespace Cafe_ClassLibrary
         public string Ingredients { get; set; }
         public decimal Price { get; set; }
 
-        //build a constructor!!!
+        public Menu() { }
+        public Menu(int number, string name, string descriptor, string ingredients, decimal price)
+        {
+            int Number = number;
+            string Name = name;
+            string Descriptor = descriptor;
+            string Ingredients = ingredients;
+            decimal Price = price;
+        }
+        
+        
+
+
+       
+
 
 
 

@@ -4,23 +4,47 @@ using System.Text;
 
 namespace Cafe_ClassLibrary
 {
-    class Menu_Repo
+    public class Menu_Repo
     {
-        ////List that Points to Your Object By Name
-        //private List<Menu> _menu = new List<Menu>();
-        ////C--Create
-        ////R--Read
-        ////U--Update
-        ////D--Delete
-        ////CREATE
-        //public bool AddMenu(Menu newMenu)
-        //{
-        //    int startingCount = _menu.Count;
-        //    _menu.Add(newMenu);
-        //    bool wasAdded = (_menu.Count > startingCount) ? true : false;
-        //    return wasAdded;
-        //}
-        ////READ ALL
+
+        private List<Menu> _menu = new List<Menu>();
+
+        public bool CreateNewMenuItem(Menu potatoSoup)
+        {
+            int startingCount = _menu.Count;
+            _menu.Add(newMenu);
+           bool wasAdded = (_menu.Count > startingCount) ? true : false;
+           return wasAdded;
+        }
+        // new up list of menu
+
+        //Add/Create
+
+        //Read//Return
+
+        //Delete//Remove
+        public List<Menu> GetMenu()
+        {
+            return _menu;
+        }
+
+        public bool DeleteMenuItem(Menu existingMenu)
+        {
+            bool deleteResult = _menu.Remove(existingMenu);
+            return deleteResult;
+        }
+
+            //private List<Menu> _menu = new List<Menu>();
+
+            //public bool AddMenu(Menu newMenu)
+            //{
+            //    int startingCount = _menu.Count;
+            //    _menu.Add(newMenu);
+            //    bool wasAdded = (_menu.Count > startingCount) ? true : false;
+            //    return wasAdded;
+            //}
+            ////READ ALL   
+            GetContents
         //public List<Menu> GetMenu()
         //{
         //    return _menu;
@@ -39,6 +63,13 @@ namespace Cafe_ClassLibrary
         //        }
         //    }
         //    return null;
+      
+
+        //update
+        void UpdateExistingContent()
+        {
+
+        }
         //}
         ////Update an existing Object
         //public bool UpdateExistingMenu(string originalName, Menu newObject)
@@ -52,5 +83,6 @@ namespace Cafe_ClassLibrary
         //    return deleteResult;
         //}
         ////A method for printing entire menu
+
     }
 }
