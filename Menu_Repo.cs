@@ -9,20 +9,14 @@ namespace Cafe_ClassLibrary
 
         private List<Menu> _menu = new List<Menu>();
 
-        public bool CreateNewMenuItem(Menu potatoSoup)
+        public bool CreateNewMenuItem(Menu newMenu)
         {
             int startingCount = _menu.Count;
             _menu.Add(newMenu);
            bool wasAdded = (_menu.Count > startingCount) ? true : false;
            return wasAdded;
         }
-        // new up list of menu
-
-        //Add/Create
-
-        //Read//Return
-
-        //Delete//Remove
+        
         public List<Menu> GetMenu()
         {
             return _menu;
@@ -34,17 +28,37 @@ namespace Cafe_ClassLibrary
             return deleteResult;
         }
 
-            //private List<Menu> _menu = new List<Menu>();
+        //public StreamingContent GetContentByTitle(string title)
+        //{
+        //    foreach (StreamingContent content in _contentDirectory)
+        //    {
+        //        if (content.Title.ToLower() == title.ToLower())
+        //        {
+        //            return content;
+        //        }
+        //    }
+        //    return null;
+        //}
 
-            //public bool AddMenu(Menu newMenu)
-            //{
-            //    int startingCount = _menu.Count;
-            //    _menu.Add(newMenu);
-            //    bool wasAdded = (_menu.Count > startingCount) ? true : false;
-            //    return wasAdded;
-            //}
-            ////READ ALL   
-            GetContents
+
+        // new up list of menu
+
+        //Add/Create
+
+        //Read//Return
+
+        //Delete//Remove
+        //private List<Menu> _menu = new List<Menu>();
+
+        //public bool AddMenu(Menu newMenu)
+        //{
+        //    int startingCount = _menu.Count;
+        //    _menu.Add(newMenu);
+        //    bool wasAdded = (_menu.Count > startingCount) ? true : false;
+        //    return wasAdded;
+        //}
+        ////READ ALL   
+        //GetContents
         //public List<Menu> GetMenu()
         //{
         //    return _menu;
@@ -63,7 +77,7 @@ namespace Cafe_ClassLibrary
         //        }
         //    }
         //    return null;
-      
+
 
         //update
         void UpdateExistingContent()

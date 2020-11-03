@@ -1,0 +1,9 @@
+C:\Users\higgi\ElevenFiftyProjects\Gold Badge Assignments\Gold Badge Final Challenges\Cafe_ClassLibrary\bin\Debug\netstandard2.0\Cafe_ClassLibrary.deps.json
+C:\Users\higgi\ElevenFiftyProjects\Gold Badge Assignments\Gold Badge Final Challenges\Cafe_ClassLibrary\bin\Debug\netstandard2.0\Cafe_ClassLibrary.dll
+C:\Users\higgi\ElevenFiftyProjects\Gold Badge Assignments\Gold Badge Final Challenges\Cafe_ClassLibrary\bin\Debug\netstandard2.0\Cafe_ClassLibrary.pdb
+C:\Users\higgi\ElevenFiftyProjects\Gold Badge Assignments\Gold Badge Final Challenges\Cafe_ClassLibrary\obj\Debug\netstandard2.0\Cafe_ClassLibrary.csprojAssemblyReference.cache
+C:\Users\higgi\ElevenFiftyProjects\Gold Badge Assignments\Gold Badge Final Challenges\Cafe_ClassLibrary\obj\Debug\netstandard2.0\Cafe_ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\higgi\ElevenFiftyProjects\Gold Badge Assignments\Gold Badge Final Challenges\Cafe_ClassLibrary\obj\Debug\netstandard2.0\Cafe_ClassLibrary.AssemblyInfo.cs
+C:\Users\higgi\ElevenFiftyProjects\Gold Badge Assignments\Gold Badge Final Challenges\Cafe_ClassLibrary\obj\Debug\netstandard2.0\Cafe_ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\higgi\ElevenFiftyProjects\Gold Badge Assignments\Gold Badge Final Challenges\Cafe_ClassLibrary\obj\Debug\netstandard2.0\Cafe_ClassLibrary.dll
+C:\Users\higgi\ElevenFiftyProjects\Gold Badge Assignments\Gold Badge Final Challenges\Cafe_ClassLibrary\obj\Debug\netstandard2.0\Cafe_ClassLibrary.pdb

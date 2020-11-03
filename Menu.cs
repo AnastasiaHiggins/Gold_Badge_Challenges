@@ -14,11 +14,11 @@ namespace Cafe_ClassLibrary
         public Menu() { }
         public Menu(int number, string name, string descriptor, string ingredients, decimal price)
         {
-            int Number = number;
-            string Name = name;
-            string Descriptor = descriptor;
-            string Ingredients = ingredients;
-            decimal Price = price;
+             Number = number;
+             Name = name;
+             Descriptor = descriptor;
+             Ingredients = ingredients;
+             Price = price;
         }
         
         
